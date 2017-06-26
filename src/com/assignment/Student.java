@@ -1,7 +1,7 @@
 package com.assignment;
 
 public class Student {
-	
+	/*In this class the attributes of the student class are declared under private access specifier*/
 		private int roll;
 		public int getRoll() {
 			return roll;

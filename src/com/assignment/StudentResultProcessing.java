@@ -2,7 +2,7 @@ package com.assignment;
 
 public class StudentResultProcessing extends Student{
 
-
+/*Printing the result of the student using the attributes and inputs from the user.*/
 		
 
 	public void result(boolean x) {

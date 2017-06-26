@@ -17,9 +17,9 @@ public class MainClass {
 		boolean result;
 		
 	
-		StudentResultProcessing sp=new StudentResultProcessing();
+		StudentResultProcessing sp=new StudentResultProcessing(); //Declaring the object of the child class which will also be able to call the method of the parent class
 		
-		Scanner scan=new Scanner(System.in);
+		Scanner scan=new Scanner(System.in); //Taking input from the User
 		System.out.println("Enter  your name");
 		name=scan.nextLine();
 		sp.setName(name);
@@ -49,6 +49,7 @@ public class MainClass {
 		
 		result=sp.result(chem,phy,math,roll);
 		sp.result(result);
+		scan.close();
 		
 		
 		
